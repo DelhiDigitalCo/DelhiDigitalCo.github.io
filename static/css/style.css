@@ -137,6 +137,7 @@ nav li a:hover {
 
   nav{
     width: 100%;
+    padding-left: 30px !important;
     justify-content: space-evenly !important;
   }
 
