@@ -86,6 +86,7 @@ nav li a:hover {
 
 #social-icons img{
   position: absolute;
+  cursor: pointer;
 }
 
 #social-icons img:nth-child(1){
@@ -101,7 +102,6 @@ nav li a:hover {
 #social-icons img:nth-child(3){
   right: 25%;
   top: 50%;
-  background: url(logo-ig-32464.png);
   box-shadow: 0px 12px 35px #F06229;
   border-radius: 25px;
 }
@@ -130,8 +130,24 @@ nav li a:hover {
 }
 
 @media screen and (max-width: 552px){
+  header{
+    width: 100%;
+    justify-content: center;
+  }
+
+  nav{
+    width: 100%;
+    justify-content: space-evenly !important;
+  }
+
   nav ul{
     padding-top: 10px;
+    padding-right: 0px;
+  }
+
+  nav ul li a{
+    font-size: 1rem !important;
+    padding-right: 1.5rem !important;
   }
 
   a.carousel-control-prev span{
@@ -153,5 +169,23 @@ nav li a:hover {
   #content{
     padding-top: 125px !important;
     padding-bottom: 0 !important;
+  }
+
+  #social-icons{
+    margin-top: 20px;
+  }
+
+  #social-icons img{
+    width: 35px;
+    height: 35px;
+  }
+
+  #social-icons img:nth-child(2){
+    width: 45px;
+    height: 45px;
+  }
+
+  #social-icons img:nth-child(3){
+    box-shadow: none;
   }
 }
