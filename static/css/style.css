@@ -97,13 +97,16 @@ nav li a:hover {
 #social-icons img:nth-child(2){
   right: 12%;
   top: 90%;
+  transition: 3s ease-in-out;
 }
 
 #social-icons img:nth-child(3){
-  right: 25%;
+  visibility: hidden;
+  right: -100px;
   top: 50%;
   box-shadow: 0px 12px 35px #F06229;
   border-radius: 25px;
+  transition: right 0.6s linear;
 }
 
 @media screen and (max-width: 992px) {
@@ -187,6 +190,8 @@ nav li a:hover {
   }
 
   #social-icons img:nth-child(3){
+    visibility: visible;
     box-shadow: none;
+    transition: none;
   }
 }

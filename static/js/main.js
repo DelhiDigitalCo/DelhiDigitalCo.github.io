@@ -3,6 +3,11 @@ $("#content").on("slid.bs.carousel", "", checkitem);
 
 $(document).ready(function () {
   checkitem();
+  $('.contact-btn').hover(function() {
+    $('#social-icons img:nth-child(3)').css({'right':"24%","visibility":"visible"});
+  }, function() {
+    $('#social-icons img:nth-child(3)').css({'right':"-100px", "visibility":"hidden"});
+  });
 });
 
 function checkitem() {
