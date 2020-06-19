@@ -29,7 +29,7 @@
       </p>
     <![endif]-->
 
-    <header class="d-flex justify-content-end">
+    <header class="d-flex">
       <nav class="navbar">
         <ul class="navbar-nav flex-row">
           <li class="nav-item">
@@ -49,14 +49,23 @@
       <div
         id="content"
         class="carousel slide d-flex align-items-center justify-content-center"
-        data-ride="carousel"
+        data-interval="false"
       >
-        <div class="carousel-inner w-75">
+        <div class="carousel-inner w-75 py-5">
           <div class="carousel-item active">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            accusantium dolorum delectus eum? At, tempore saepe exercitationem
-            facilis veritatis voluptatibus aliquam dicta eaque. Amet placeat eos
-            iusto voluptate, quasi error.
+            <div>
+              <div class="heading mb-4">Building Ventures Digitally</div>
+              <h4 class="subheading">
+                WEBSITES .UI/UX .DESIGN .BRANDING .<br />
+                CONTENT CREATION .DIGITAL MARKETING
+              </h4>
+              <button class="contact-btn">Get In Touch</button>
+            </div>
+            <div id="social-icons" class="w-100 py-5 d-flex justify-content-end">
+              <img width="70" height="70" src="./resource/twitter.jpg">
+              <img width="90" height="90" src="./resource/facebook.jpg">
+              <img width="70" height="70" src="./resource/insta.jpg">
+            </div>
           </div>
           <div class="carousel-item">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
@@ -72,21 +81,55 @@
           </div>
         </div>
         <a
-          class="carousel-control-prev"
+          class="carousel-control-prev justify-content-start"
           href="#content"
           role="button"
           data-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="pl-5" aria-hidden="true">
+            <svg
+              width="40"
+              height="79"
+              viewBox="0 0 50 89"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M44.375 83.75L5 44.375L44.375 5"
+                stroke="#FFFEFE"
+                stroke-opacity="0.5"
+                stroke-width="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
           <span class="sr-only">Previous</span>
         </a>
         <a
-          class="carousel-control-next"
+          class="carousel-control-next justify-content-end"
           href="#content"
           role="button"
           data-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="pr-5" aria-hidden="true">
+            <svg
+              width="40"
+              height="79"
+              viewBox="0 0 53 89"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.40527 83.75L47.4989 44.375L5.40527 5"
+                stroke="#FFFEFE"
+                stroke-opacity="0.5"
+                stroke-width="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
           <span class="sr-only">Next</span>
         </a>
       </div>
