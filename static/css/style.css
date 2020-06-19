@@ -115,3 +115,43 @@ nav li a:hover {
     padding-right: 0 !important;
   }
 }
+
+@media screen and (max-width: 768px){
+  #social-icons{
+    justify-content: space-evenly !important;
+    align-items: center;
+  }
+
+  #social-icons img{
+    position: static !important;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 552px){
+  nav ul{
+    padding-top: 10px;
+  }
+
+  a.carousel-control-prev span{
+    padding-left: 0.5rem !important;
+  }
+
+  a.carousel-control-prev svg{
+    width: 25px;
+  }
+
+  a.carousel-control-next span{
+    padding-right: 0.5rem !important;
+  }
+
+  a.carousel-control-next svg{
+    width: 25px;
+  }
+
+  #content{
+    padding-top: 125px !important;
+    padding-bottom: 0 !important;
+  }
+}
