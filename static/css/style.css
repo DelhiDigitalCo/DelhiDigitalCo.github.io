@@ -156,6 +156,18 @@ div.services div:last-child{
   nav ul {
     padding-right: 0 !important;
   }
+
+  div.services div:first-child{
+    padding: 20px;
+  }
+
+  div.services div:last-child{
+    padding: 30px 10px;
+  }
+
+  div.services .border{
+    padding: 30px;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -233,4 +245,22 @@ div.services div:last-child{
     box-shadow: none;
     transition: none;
   }
+
+  .backdrop-heading{
+    display: none;
+  }
+
+  .services{
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  div.services .border{
+    padding: 20px;
+  }
+
+  div.services div:last-child{
+    padding: 30px 10px;
+  }
+
 }
