@@ -16,6 +16,7 @@ function checkitem() {
   if ($(".carousel-inner .carousel-item:first").hasClass("active")) {
     $this.children("a.carousel-control-prev").hide();
     $this.children("a.carousel-control-next").show();
+    // $('#content').css({"padding-top": "100px","padding-bottom":"0"});
     $("nav ul li:first a").css("color", "white");
   } else if ($(".carousel-inner .carousel-item:last").hasClass("active")) {
     $this.children("a.carousel-control-prev").show();
@@ -24,6 +25,7 @@ function checkitem() {
   } else {
     $this.children("a.carousel-control-prev").show();
     $this.children("a.carousel-control-next").show();
+    // $('#content').css({"padding-top": "0","padding-bottom":"200px"});
     $("nav ul li:nth-child(2) a").css("color", "white");
   }
 }
