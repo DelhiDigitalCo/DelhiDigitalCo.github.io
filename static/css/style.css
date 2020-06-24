@@ -123,46 +123,56 @@ div[id*="page"] {
   text-transform: none;
 }
 
-.page-2-text-color{
-  color: #5293DE;
+.page-2-text-color {
+  color: #5293de;
   font-weight: 600;
   font-size: 18px;
 }
 
-#page2 .jumbotron{
-    line-height: 2;
+#page2 .jumbotron {
+  line-height: 2;
 }
 
-.width-size{
-    width: 80%;
+.width-size {
+  width: 80%;
 }
 
-.carousel-control-prev img{
+.carousel-control-prev img {
   max-width: 36px;
   cursor: pointer;
 }
 
-.carousel-control-next img{
+.carousel-control-next img {
   max-width: 36px;
   cursor: pointer;
 }
 
-#page3{
+#page3 {
   height: auto;
-  background: #5A5A5A;
+  background: #5a5a5a;
 }
 
-.card{
+.card {
   height: 325px;
   border-radius: 1rem !important;
   padding: 20px 10px;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
-.card-title{
+.card:hover {
+  margin-top: -10px;
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+  background: #FFFFFF;
+  box-shadow: 10px 4px 100px #213A4D;
+}
+
+.card-title {
   color: black;
 }
 
-#page3 .row{
+#page3 .row {
   margin: 0 auto;
 }
 
@@ -221,15 +231,15 @@ div[id*="page"] {
     padding: 0 !important;
   }
 
-  .card{
+  .card {
     margin-top: 20px;
   }
 
-  #testimonial .container{
+  #testimonial .container {
     width: 75% !important;
   }
 
-  .card{
+  .card {
     height: 250px;
   }
 }
