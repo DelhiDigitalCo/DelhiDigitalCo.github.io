@@ -153,8 +153,13 @@ div[id*="page"] {
 }
 
 .card{
+  height: 325px;
   border-radius: 1rem !important;
   padding: 20px 10px;
+}
+
+.card-title{
+  color: black;
 }
 
 #page3 .row{
@@ -222,5 +227,9 @@ div[id*="page"] {
 
   #testimonial .container{
     width: 75% !important;
+  }
+
+  .card{
+    height: 250px;
   }
 }

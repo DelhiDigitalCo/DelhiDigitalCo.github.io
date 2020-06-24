@@ -6,8 +6,9 @@ $.scrollify({
   section: "#page1, #page2, #page3, #page4",
   setHeights: false,
 });
-$("#service").on("slid", "", checkitem);
-$("#service").on("slid.bs.carousel", "", checkitem);
+$("#service, #testimonial").on("slid", "", checkitem);
+$("#service, #testimonial").on("slid.bs.carousel", "", checkitem);
+
 
 function scrollToElement(selector) {
   $("html, body").animate(
@@ -19,7 +20,7 @@ function scrollToElement(selector) {
 }
 
 function checkitem() {
-  var $this = $("#service");
+  var $this = $("#service, #testimonial");
   if ($(".carousel-inner .carousel-item:first").hasClass("active")) {
     $this.children("a.carousel-control-prev").hide();
     $this.children("a.carousel-control-next").show();
