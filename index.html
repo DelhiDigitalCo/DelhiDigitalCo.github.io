@@ -1,13 +1,15 @@
-<!DOCTYPE html> <!--[if gt IE 8]><!-->
+<!DOCTYPE html>
 <html class="no-js">
-  <!--<![endif]-->
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
       Delhi Digital Co. | New Delhi Web Design Agency | Web Development
     </title>
-    <meta name="description" content="About-Company" />
+    <meta
+      name="description"
+      content="Delhi Digital Co. is a web design and development agency obsessed with business. Our work is focused on deriving growth for your business in the digital domain."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -22,254 +24,419 @@
     <link rel="stylesheet" href="./static/css/style.css" />
   </head>
   <body>
-    <!--[if lt IE 7]>
+    <!-- [if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
-    <![endif]-->
+    <![endif] -->
 
-    <header class="d-flex">
-      <nav class="navbar">
-        <ul class="navbar-nav flex-row">
-          <li class="nav-item">
-            <a
-              id="homeBtn"
-              data-target="#content"
-              data-slide-to="0"
-              href="#"
-              class="nav-link"
-              >Home</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              id="servicesBtn"
-              data-target="#content"
-              data-slide-to="1"
-              href="#"
-              class="nav-link"
-              >Services</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              id="contactBtn"
-              data-target="#content"
-              data-slide-to="2"
-              href="#"
-              class="nav-link"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="navbar pt-sm-5 w-100 justify-content-end">
+      <ul class="navbar-nav flex-row justify-content-between">
+        <li class="nav-item">
+          <a href="#" class="page-scroll">Work</a>
+        </li>
+        <li class="nav-item">
+          <a href="#page2" class="page-scroll">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="page-scroll">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
-    <main>
-      <div
-        id="content"
-        class="carousel slide d-flex align-items-center justify-content-center"
-        data-interval="false"
-      >
-        <div class="carousel-inner w-75 py-5">
-          <div class="carousel-item active">
-            <div>
-              <div class="heading mb-4">Building Ventures Digitally</div>
-              <h4 class="subheading">
+    <main class="container-fluid">
+      <div id="page1" class="row pt-5">
+        <div class="col d-flex justify-content-center align-items-center">
+          <div class="jumbotron jumbotron-fluid bg-transparent">
+            <div class="container">
+              <h1 class="display-3 font-weight-bold mb-4">
+                Building Ventures Digitally
+              </h1>
+              <p class="lead subheading">
                 WEBSITES .UI/UX .DESIGN .BRANDING .<br />
                 CONTENT CREATION .DIGITAL MARKETING
-              </h4>
-              <button class="contact-btn">Get In Touch</button>
-            </div>
-            <div
-              id="social-icons"
-              class="w-100 py-5 d-flex justify-content-end"
-            >
-              <img width="70" height="70" src="./resource/twitter.jpg" />
-              <img width="90" height="90" src="./resource/facebook.jpg" />
-              <img width="70" height="70" src="./resource/insta.jpg" />
+              </p>
+              <p class="lead text-center text-md-left">
+                <a
+                  id="getinTouch"
+                  class="btn btn-primary btn-lg"
+                  href="#"
+                  role="button"
+                  >Get In Touch</a
+                >
+              </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <div>
-              <div class="backdrop-heading">Services</div>
-              <div
-                class="services d-flex justify-content-around align-items-center"
-              >
-                <div class="border">
-                  <svg
-                    width="106"
-                    height="61"
-                    viewBox="0 0 106 61"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M100.845 4.65778L59.4818 45.0194L37.7119 23.7764L5.05713 55.6408"
-                      stroke="#FFF9F9"
-                      stroke-width="9"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M74.7207 4.65778H100.845V30.1493"
-                      stroke="#FFF9F9"
-                      stroke-width="9"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div id="social-icons">
+            <img
+              width="60"
+              height="60"
+              src="./resource/twitter.jpg"
+              class="floating"
+            />
+            <img
+              width="50"
+              height="50"
+              src="./resource/facebook.png"
+              class="floating"
+            />
+            <img
+              width="60"
+              height="60"
+              src="./resource/insta.jpg"
+              class="floating"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="page2" class="row position-relative">
+        <div class="container-fluid">
+          <h1
+            class="row w-100 justify-content-center align-items-center font-weight-bold mb-5 mx-auto"
+          >
+            Our Services
+          </h1>
+          <div id="service" class="carousel slide" data-interval="false" data-touch="true"  data-scroll-reveal="enter left">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="container-fluid">
+                  <div class="row h-100">
+                    <div
+                      class="col-lg-5 d-flex align-items-center justify-content-center"
+                    >
+                      <img class="img-fluid" src="./resource/phone.gif" />
+                    </div>
+                    <div
+                      class="col d-flex align-items-center justify-content-center"
+                    >
+                      <div
+                        class="jumbotron jumbotron-fluid bg-transparent pl-sm-5"
+                      >
+                        <div class="container text-center text-md-left">
+                          <h1 class="display-4 font-weight-bold">
+                            Social Media Marketing
+                          </h1>
+                          <p class="lead page-2-text-color mb-5">
+                            To grow. Create. Together.
+                          </p>
+                          <hr class="my-2" />
+                          <p class="width-size mb-5 mx-auto mx-md-0">
+                            Social Media Marketing is the use of social media
+                            platforms to connect with your audience to build
+                            your brand, increase sales and drive website traffic
+                          </p>
+                          <p class="lead pt-sm-5">
+                            <a
+                              id="moreInfo"
+                              class="btn btn-primary btn-lg page-2-text-color"
+                              href="#"
+                              role="button"
+                              >I would Like More Information</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="border">
-                  <svg
-                    width="90"
-                    height="90"
-                    viewBox="0 0 111 111"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M100.594 7.46875C101.027 7.46875 101.795 7.72575 102.535 8.46515C103.274 9.20454 103.531 9.9728 103.531 10.4062V72.3125H7.46875V10.4062C7.46875 9.9728 7.72575 9.20454 8.46515 8.46515C9.20454 7.72575 9.9728 7.46875 10.4062 7.46875H100.594Z"
-                      fill="#212528"
-                      stroke="white"
-                      stroke-width="8"
-                    />
-                    <path
-                      d="M3.46875 76.3125V83.25C3.46875 86.7188 6.9375 90.1875 10.4062 90.1875H100.594C104.062 90.1875 107.531 86.7188 107.531 83.25V76.3125H3.46875Z"
-                      fill="#B1B1B1"
-                    />
-                    <path
-                      d="M41.625 93.6562C41.625 100.594 34.6875 100.594 27.75 100.594H83.25C76.3125 100.594 69.375 100.594 69.375 93.6562V90.1875H41.625V93.6562Z"
-                      fill="#BFBEBE"
-                    />
-                    <path
-                      d="M55.5 84.811C56.4579 84.811 57.2344 84.0345 57.2344 83.0766C57.2344 82.1187 56.4579 81.3422 55.5 81.3422C54.5421 81.3422 53.7656 82.1187 53.7656 83.0766C53.7656 84.0345 54.5421 84.811 55.5 84.811Z"
-                      fill="#494949"
-                    />
-                    <path
-                      d="M27.75 100.594H83.25V107.531H27.75V100.594Z"
-                      fill="#494949"
-                    />
-                  </svg>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid">
+                  <div class="row h-100">
+                    <div
+                      class="col-lg-5 d-flex align-items-center justify-content-center mb-5"
+                    >
+                      <img class="img-fluid blacklist" src="./resource/iMac.png" />
+                    </div>
+                    <div
+                      class="col d-flex align-items-center justify-content-center"
+                    >
+                      <div
+                        class="jumbotron jumbotron-fluid bg-transparent pl-sm-5"
+                      >
+                        <div class="container text-center text-md-left">
+                          <h1 class="display-4 font-weight-bold">
+                            <span class="text-secondary small display-5"
+                              >We Do</span
+                            >
+                            UX/UI Design
+                          </h1>
+                          <p class="lead page-2-text-color mb-5">
+                            To grow. Create. Together.
+                          </p>
+                          <hr class="my-2" />
+                          <p class="width-size mb-5 mx-auto mx-md-0">
+                            Social Media Marketing is the use of social media
+                            platforms to connect with your audience to build
+                            your brand, increase sales and drive website traffic
+                          </p>
+                          <p class="lead pt-3 pt-sm-5">
+                            <a
+                              id="moreInfo"
+                              class="btn btn-primary btn-lg page-2-text-color"
+                              href="#"
+                              role="button"
+                              >I would Like More Information</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="border">
-                  <svg
-                    width="67"
-                    height="67"
-                    viewBox="0 0 67 67"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev justify-content-start"
+              href="#service"
+              role="button"
+              data-slide="prev"
+            >
+              <img
+                class="position-absolute w-25"
+                src="resource/carousel-left.png"
+                aria-hidden="true"
+              />
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next justify-content-end"
+              href="#service"
+              role="button"
+              data-slide="next"
+            >
+              <img
+                class="position-absolute w-25"
+                src="resource/corousel-right.png"
+                aria-hidden="true"
+              />
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="page3" class="row position-relative h-auto">
+        <div class="container">
+          <h1
+            class="row w-100 justify-content-center align-items-center font-weight-bold my-5 mx-auto text-center"
+          >
+            Our Methodology
+          </h1>
+          <div class="row mb-5">
+            <div class="col">
+              <div class="card bg-white text-dark">
+                <div class="card-body">
+                  <h4
+                    class="card-title d-flex justify-content-center align-items-center"
                   >
-                    <path
-                      d="M47.6616 5.23633H19.036C11.1312 5.23633 4.72314 11.6444 4.72314 19.5492V48.1748C4.72314 56.0796 11.1312 62.4876 19.036 62.4876H47.6616C55.5664 62.4876 61.9745 56.0796 61.9745 48.1748V19.5492C61.9745 11.6444 55.5664 5.23633 47.6616 5.23633Z"
-                      stroke="white"
-                      stroke-width="9"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M44.7991 32.0586C45.1524 34.441 44.7455 36.8741 43.6363 39.0119C42.527 41.1496 40.7719 42.8832 38.6207 43.966C36.4694 45.0488 34.0315 45.4257 31.6536 45.043C29.2758 44.6604 27.0792 43.5378 25.3762 41.8348C23.6732 40.1318 22.5505 37.9351 22.1679 35.5573C21.7853 33.1795 22.1622 30.7416 23.245 28.5903C24.3278 26.439 26.0613 24.6839 28.1991 23.5747C30.3368 22.4654 32.7699 22.0585 35.1523 22.4118C37.5824 22.7722 39.8322 23.9045 41.5693 25.6416C43.3064 27.3788 44.4388 29.6285 44.7991 32.0586Z"
-                      stroke="white"
-                      stroke-width="9"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M49.0928 18.118H49.1214"
-                      stroke="white"
-                      stroke-width="9"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                    To Explore
+                  </h4>
+                  <p
+                    class="card-text d-flex justify-content-center align-items-center"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum illum ad sunt eaque deleniti praesentium accusamus,
+                    facilis, fugit earum architecto aliquid culpa voluptas,
+                    error eveniet libero repudiandae veniam sint nisi?
+                  </p>
                 </div>
-                <div class="border">
-                  <svg
-                    width="105"
-                    height="62"
-                    viewBox="0 0 105 62"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-white text-dark">
+                <div class="card-body">
+                  <h4
+                    class="card-title d-flex justify-content-center align-items-center"
                   >
-                    <path
-                      d="M100.211 5.23633L59.2032 46.2437L37.6203 24.6609L5.24609 57.0351"
-                      stroke="#FFF9F9"
-                      stroke-width="9"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M74.3113 5.23633H100.211V31.1357"
-                      stroke="#FFF9F9"
-                      stroke-width="9"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
+                    To Explore
+                  </h4>
+                  <p
+                    class="card-text d-flex justify-content-center align-items-center"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum illum ad sunt eaque deleniti praesentium accusamus,
+                    facilis, fugit earum architecto aliquid culpa voluptas,
+                    error eveniet libero repudiandae veniam sint nisi?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-white text-dark">
+                <div class="card-body">
+                  <h4
+                    class="card-title d-flex justify-content-center align-items-center"
+                  >
+                    To Explore
+                  </h4>
+                  <p
+                    class="card-text d-flex justify-content-center align-items-center"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum illum ad sunt eaque deleniti praesentium accusamus,
+                    facilis, fugit earum architecto aliquid culpa voluptas,
+                    error eveniet libero repudiandae veniam sint nisi?
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            iusto eum fugit ipsam architecto maxime corrupti quaerat quia
-            asperiores molestiae aliquam neque sequi doloribus nam eaque
-            temporibus, illo magnam porro?
+          <div class="row mb-5">
+            <div class="col">
+              <div class="card bg-white text-dark">
+                <div class="card-body">
+                  <h4
+                    class="card-title d-flex justify-content-center align-items-center"
+                  >
+                    To Explore
+                  </h4>
+                  <p
+                    class="card-text d-flex justify-content-center align-items-center"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum illum ad sunt eaque deleniti praesentium accusamus,
+                    facilis, fugit earum architecto aliquid culpa voluptas,
+                    error eveniet libero repudiandae veniam sint nisi?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-white text-dark">
+                <div class="card-body">
+                  <h4
+                    class="card-title d-flex justify-content-center align-items-center"
+                  >
+                    To Explore
+                  </h4>
+                  <p
+                    class="card-text d-flex justify-content-center align-items-center"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum illum ad sunt eaque deleniti praesentium accusamus,
+                    facilis, fugit earum architecto aliquid culpa voluptas,
+                    error eveniet libero repudiandae veniam sint nisi?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-white text-dark">
+                <div class="card-body">
+                  <h4
+                    class="card-title d-flex justify-content-center align-items-center"
+                  >
+                    To Explore
+                  </h4>
+                  <p
+                    class="card-text d-flex justify-content-center align-items-center"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum illum ad sunt eaque deleniti praesentium accusamus,
+                    facilis, fugit earum architecto aliquid culpa voluptas,
+                    error eveniet libero repudiandae veniam sint nisi?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <div class="card bg-white text-dark">
+                <div class="card-body">
+                  <h4
+                    class="card-title d-flex justify-content-center align-items-center"
+                  >
+                    To Explore
+                  </h4>
+                  <p
+                    class="card-text d-flex justify-content-center align-items-center"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum illum ad sunt eaque deleniti praesentium accusamus,
+                    facilis, fugit earum architecto aliquid culpa voluptas,
+                    error eveniet libero repudiandae veniam sint nisi?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-white text-dark">
+                <div class="card-body">
+                  <h4
+                    class="card-title d-flex justify-content-center align-items-center"
+                  >
+                    To Explore
+                  </h4>
+                  <p
+                    class="card-text d-flex justify-content-center align-items-center"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum illum ad sunt eaque deleniti praesentium accusamus,
+                    facilis, fugit earum architecto aliquid culpa voluptas,
+                    error eveniet libero repudiandae veniam sint nisi?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-white text-dark">
+                <div class="card-body">
+                  <h4
+                    class="card-title d-flex justify-content-center align-items-center"
+                  >
+                    To Explore
+                  </h4>
+                  <p
+                    class="card-text d-flex justify-content-center align-items-center"
+                  >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum illum ad sunt eaque deleniti praesentium accusamus,
+                    facilis, fugit earum architecto aliquid culpa voluptas,
+                    error eveniet libero repudiandae veniam sint nisi?
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <a
-          class="carousel-control-prev justify-content-start"
-          href="#content"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="pl-5" aria-hidden="true">
-            <svg
-              width="40"
-              height="79"
-              viewBox="0 0 50 89"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M44.375 83.75L5 44.375L44.375 5"
-                stroke="#FFFEFE"
-                stroke-opacity="0.5"
-                stroke-width="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next justify-content-end"
-          href="#content"
-          role="button"
-          data-slide="next"
-        >
-          <span class="pr-5" aria-hidden="true">
-            <svg
-              width="40"
-              height="79"
-              viewBox="0 0 53 89"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M5.40527 83.75L47.4989 44.375L5.40527 5"
-                stroke="#FFFEFE"
-                stroke-opacity="0.5"
-                stroke-width="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-          <span class="sr-only">Next</span>
-        </a>
+      </div>
+      <div id="page4" class="row position-relative align-items-center">
+        <div class="container-fluid">
+          <div id="testimonial" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="container w-50">
+                  <div class="row justify-content-center justify-content-md-start align-items-center mb-4">
+                    <div class="col-md-3 text-center text-md-left pl-md-0">
+                      <img class="img-fluid rounded-circle" src="resource/client-1.png">
+                    </div>
+                    <div class="col col-md-4 text-center text-md-left pl-md-0">
+                      <h5 class="font-weight-bold">Sonal Aggarwal</h5>
+                      <div>Founder - Shibui</div>
+                    </div>
+                  </div>
+                  <div class="row text-center text-md-left">
+                    <div class="col">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ipsam soluta dolor iusto officia! Commodi enim omnis quidem voluptatem nihil, neque consequatur ipsa porro a ratione. Pariatur tenetur perferendis odio?
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev justify-content-start justify-content-md-center" href="#testimonial" role="button" data-slide="prev">
+              <img src="resource/arrow-left.png" class="rounded-circle bg-white p-2" aria-hidden="true">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next justify-content-end justify-content-md-center" href="#testimonial" role="button" data-slide="next">
+              <img src="resource/arrow-right.png" class="rounded-circle bg-white p-2" aria-hidden="true">
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
       </div>
     </main>
 
@@ -288,6 +455,8 @@
       integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
       crossorigin="anonymous"
     ></script>
-    <script src="./static/js/main.js"></script>
+    <script src="static/js/jquery.scrollify.js"></script>
+    <script src="static/js/scrollreveal.min.js"></script>
+    <script src="./static/js/main.js" async defer></script>
   </body>
 </html>
