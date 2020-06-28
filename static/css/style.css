@@ -7,6 +7,7 @@
   --nav-font-size: 25px;
   --nav-font-boldness: 900;
   --subheading-color: #787171;
+  --page3-background: #5a5a5a;
 }
 
 * {
@@ -149,7 +150,7 @@ div[id*="page"] {
 
 #page3 {
   height: auto;
-  background: #5a5a5a;
+  background: var(--page3-background);
 }
 
 .card {
@@ -242,4 +243,10 @@ div[id*="page"] {
   .card {
     height: 250px;
   }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }
