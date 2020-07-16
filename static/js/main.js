@@ -31,10 +31,10 @@ function scrollToElement(selector) {
 
 function checkitem(carouselSelector) {
   var $this = $(carouselSelector);
-  if ($(".carousel-inner .carousel-item:first").hasClass("active")) {
+  if ($this.children(".carousel-inner").children(".carousel-item:first").hasClass("active")) {
     $this.children("a.carousel-control-prev").hide();
     $this.children("a.carousel-control-next").show();
-  } else if ($(".carousel-inner .carousel-item:last").hasClass("active")) {
+  } else if ($this.children(".carousel-inner").children(".carousel-item:last").hasClass("active")) {
     $this.children("a.carousel-control-prev").show();
     $this.children("a.carousel-control-next").hide();
   } else {
