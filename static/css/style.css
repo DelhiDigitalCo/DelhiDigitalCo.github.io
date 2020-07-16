@@ -221,6 +221,7 @@ footer ul {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    width: 75%;
   }
 
   #social-icons img {
