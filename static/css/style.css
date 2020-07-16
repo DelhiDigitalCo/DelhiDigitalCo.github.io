@@ -165,8 +165,8 @@ div[id*="page"] {
   margin-top: -10px;
   -webkit-transform: rotate(4deg);
   transform: rotate(4deg);
-  background: #FFFFFF;
-  box-shadow: 10px 4px 100px #213A4D;
+  background: #ffffff;
+  box-shadow: 10px 4px 100px #213a4d;
 }
 
 .card-title {
@@ -175,6 +175,28 @@ div[id*="page"] {
 
 #page3 .row {
   margin: 0 auto;
+}
+
+footer {
+  position: relative;
+  margin-bottom: 0;
+  background: #222538;
+}
+
+footer p {
+  line-height: 1.6rem;
+}
+
+footer ul {
+  line-height: 1.6rem;
+}
+
+#footer-socials a{
+  transition: filter 300ms;
+}
+
+#footer-socials a:hover{
+  filter: brightness(150%);
 }
 
 @media screen and (max-width: 1024px) {
@@ -186,6 +208,10 @@ div[id*="page"] {
   #page2 {
     height: auto !important;
     margin-bottom: 2rem !important;
+  }
+
+  #footer-socials {
+    gap: 1rem;
   }
 }
 
@@ -200,6 +226,7 @@ div[id*="page"] {
   #social-icons img {
     position: static;
   }
+  
 }
 
 @media screen and (max-width: 552px) {
@@ -246,7 +273,7 @@ div[id*="page"] {
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+  html {
+    scroll-behavior: auto;
+  }
 }
