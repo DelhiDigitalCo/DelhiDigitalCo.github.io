@@ -271,6 +271,10 @@ footer ul {
   .card {
     height: 250px;
   }
+
+  footer .container{
+    width: 100% !important;
+  }
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
