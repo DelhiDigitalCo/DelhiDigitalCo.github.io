@@ -138,6 +138,10 @@ div[id*="page"] {
   width: 80%;
 }
 
+#page2 .carousel-inner{
+  height: 600px;
+}
+
 .carousel-control-prev img {
   max-width: 36px;
   cursor: pointer;
@@ -226,6 +230,10 @@ footer ul {
 
   #social-icons img {
     position: static;
+  }
+
+  #page2 .carousel-inner{
+    height: 900px;
   }
   
 }
