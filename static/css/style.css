@@ -42,7 +42,7 @@ nav {
 }
 
 nav ul {
-  width: 40%;
+  width: 75%;
   font-size: var(--nav-font-size);
   font-weight: var(--nav-font-boldness);
   padding-right: 6rem;
@@ -135,6 +135,11 @@ div[id*="page"] {
   font-size: 18px;
 }
 
+.page-2-btn {
+  color: white !important;
+  background: linear-gradient(
+    273.87deg,
+    #9e00ff 6.17%,
     #00f0ff 99.91%
   ) !important;
   font-weight: 600;
