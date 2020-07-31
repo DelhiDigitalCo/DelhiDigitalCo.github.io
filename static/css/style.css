@@ -52,6 +52,7 @@ nav ul {
 .navbar-brand {
   flex: 1;
 }
+
 .subheading {
   line-height: 2;
   color: var(--subheading-color);
@@ -241,6 +242,7 @@ div[id*="page"] {
   top: -150px;
   right: -100px;
 }
+
 .card {
   height: 325px;
   border-radius: 1rem !important;
@@ -273,6 +275,14 @@ footer {
   position: relative;
   margin-bottom: 0;
   background: #222538;
+  overflow: hidden;
+}
+
+#footer-img {
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  object-fit: cover;
 }
 
 footer p {
@@ -283,11 +293,11 @@ footer ul {
   line-height: 1.6rem;
 }
 
-#footer-socials a{
+#footer-socials a {
   transition: filter 300ms;
 }
 
-#footer-socials a:hover{
+#footer-socials a:hover {
   filter: brightness(150%);
 }
 
@@ -314,6 +324,7 @@ footer ul {
   #footer-socials {
     gap: 1rem;
   }
+
   #page2 .carousel-inner {
     height: auto;
 }
@@ -331,11 +342,6 @@ footer ul {
   #social-icons img {
     position: static;
   }
-
-  #page2 .carousel-inner{
-    height: 900px;
-  }
-  
 }
 
 @media screen and (max-width: 552px) {
@@ -384,7 +390,7 @@ footer ul {
     height: 250px;
   }
 
-  footer .container{
+  footer .container {
     width: 100% !important;
   }
 }
