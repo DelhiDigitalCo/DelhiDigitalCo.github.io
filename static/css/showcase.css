@@ -9,10 +9,6 @@ header {
   color: white;
 }
 
-header p {
-  width: 50%;
-}
-
 main div.border-dark {
   border-right: 1px solid #dee2e6;
 }
@@ -85,6 +81,14 @@ footer .jumbotron {
 @media screen and (max-width: 1024px) {
   header p {
     width: 100%;
+  }
+
+  header .col-lg:nth-child(1){
+    order: 2;
+  }
+
+  header .col-lg:nth-child(2){
+    order: 1;
   }
 
   #checklist1 {
