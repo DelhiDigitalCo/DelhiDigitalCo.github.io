@@ -257,8 +257,12 @@ div[id*="page"] {
   box-shadow: 10px 4px 100px #213a4d;
 }
 
+.card-primary {
+  color: #4a83c5;
+}
+
 .card-title {
-  color: black;
+  color: #9700af;
 }
 
 #page3 .row {
