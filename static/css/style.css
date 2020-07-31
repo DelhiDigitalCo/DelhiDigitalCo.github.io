@@ -236,6 +236,10 @@ div[id*="page"] {
   background: var(--page3-background);
 }
 
+#hexBg{
+  top: -150px;
+  right: -100px;
+}
 .card {
   height: 325px;
   border-radius: 1rem !important;
