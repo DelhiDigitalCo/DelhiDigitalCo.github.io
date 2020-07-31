@@ -130,6 +130,13 @@ div[id*="page"] {
   font-size: 18px;
 }
 
+    #00f0ff 99.91%
+  ) !important;
+  font-weight: 600;
+  font-size: 18px !important;
+  padding: 10px 25px !important;
+}
+
 #page2 .jumbotron {
   line-height: 2;
 }
@@ -138,7 +145,69 @@ div[id*="page"] {
   width: 80%;
 }
 
-#page2 .carousel-inner{
+.carousel-indicators {
+  top: 0 !important;
+  width: 100%;
+  height: 10px !important;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.carousel-indicators li {
+  position: relative;
+  background-color: transparent !important;
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.carousel-indicators li::before {
+  width: 100% !important;
+  height: auto !important;
+  color: #919191;
+  text-indent: initial !important;
+  background: transparent !important;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem !important;
+}
+
+.carousel-indicators li:nth-child(1),
+.carousel-indicators li:nth-child(2) {
+  flex: 1.5;
+}
+
+.carousel-indicators li:nth-child(1)::before {
+  content: "Social Media Marketing";
+}
+.carousel-indicators li:nth-child(2)::before {
+  content: "Web Development";
+}
+.carousel-indicators li:nth-child(3)::before {
+  content: "SEO";
+}
+.carousel-indicators li:nth-child(4)::before {
+  content: "Design";
+}
+.carousel-indicators li:nth-child(5)::before {
+  content: "Paid Ads";
+}
+.carousel-indicators li:nth-child(6)::before {
+  content: "Branding";
+}
+.carousel-indicators li:nth-child(7)::before {
+  content: "Marketing";
+}
+
+.carousel-indicators li.active {
+  background: transparent !important;
+}
+
+.carousel-indicators li.active::before {
+  color: white;
+}
+
+#page2 .carousel-inner {
   height: 600px;
 }
 
@@ -217,6 +286,9 @@ footer ul {
   #footer-socials {
     gap: 1rem;
   }
+  #page2 .carousel-inner {
+    height: auto;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -266,6 +338,10 @@ footer ul {
   #page1 .jumbotron {
     margin-bottom: 0 !important;
     padding: 0 !important;
+  }
+
+  #page2 .carousel-inner {
+    height: 875px;
   }
 
   .card {
