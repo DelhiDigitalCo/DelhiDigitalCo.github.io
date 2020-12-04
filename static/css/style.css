@@ -400,3 +400,8 @@ footer ul {
     scroll-behavior: auto;
   }
 }
+@media screen and (min-width: 768px){
+   div[id*="page"] {
+  height: 40vh;
+ }
+}
