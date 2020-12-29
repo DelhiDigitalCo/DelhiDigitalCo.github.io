@@ -34,7 +34,7 @@
     <nav
       class="navbar navbar-expand-lg p-0 w-100 justify-content-between navbar-dark"
     >
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img class="img-fluid blacklist" src="./resource/logo.png" />
       </a>
       <button
@@ -61,8 +61,8 @@
           <li class="nav-item dropdown" style="font-size:18px;font-weight: 900;color: white !important;">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size:18px !important;font-weight: 900 !important;color: white !important;text-transform: none !important;">What we do</a>
             <div class="dropdown-menu">
-                <a href="#digitalmarketing" class="dropdown-item">Digital Marketing</a>
-                <a href="#" class="dropdown-item">Web Development</a>
+                <a href="#"  class="dropdown-item">Digital Marketing</a>
+                <a href="#"  class="dropdown-item">Web Development</a>
                 <a href="#" class="dropdown-item">Design</a>
                 <a href="#" class="dropdown-item">Branding</a>
                 <a href="#" class="dropdown-item">Paid Ads</a>
@@ -149,7 +149,7 @@
               <li data-target="#service" data-slide-to="5"></li>
               <li data-target="#service" data-slide-to="6"></li>
             </ol>
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner" role="listbox" >
               <div class="carousel-item active" id="digitalmarketing">
                 <div class="container-fluid">
                   <div class="row h-100">
@@ -480,6 +480,7 @@
               href="#service" 
               role="button"
               data-slide="prev"
+              onclick="$('#service').carousel('prev')"
             >
               <img
                 class="position-absolute w-25"
@@ -493,6 +494,7 @@
               href="#service"
               role="button"
               data-slide="next"
+              onclick="$('#service').carousel('next')"
             >
               <img
                 class="position-absolute w-25"
@@ -694,6 +696,7 @@
               href="#testimonial"
               role="button"
               data-slide="prev"
+              
             >
               <img
                 src="resource/arrow-left.png"
@@ -702,11 +705,13 @@
               />
               <span class="sr-only">Previous</span>
             </a>
+
             <a
               class="carousel-control-next justify-content-end justify-content-md-center"
               href="#testimonial"
               role="button"
               data-slide="next"
+              
             >
               <img
                 src="resource/arrow-right.png"
@@ -720,14 +725,14 @@
       </div>
     </main>
 
-    <footer class="py-5 position-relative">
+    <footer class="py-5 position-relative" id="footer">
       <img
         id="footer-img"
         class="position-absolute w-100 h-100 img-fluid"
         src="resource/map.png"
         alt="footer image"
       />
-      <div class="container w-75" style="width: 100% !important;">
+      <div class="container w-75" style="width: 100% !important;" id="footercontent">
         <div class="row text-left">
           <div class="col-md text-center text-md-left mb-3 mb-md-auto">
             <img
@@ -814,5 +819,10 @@
     <script src="static/js/scrollreveal.min.js"></script>
     <script src="static/js/jquery.scrollify.js"></script>
     <script src="./static/js/main.js" async defer></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
   </body>
 </html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
