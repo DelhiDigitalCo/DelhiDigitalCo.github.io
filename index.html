@@ -58,14 +58,18 @@
           <li class="nav-item">
             <a href="#" class="page-scroll">Our Work</a>
           </li>
-          <li class="nav-item">
-            <a href="#page2" class="page-scroll">What we do +</a>
-          </li>
+          <li class="nav-item dropdown" style="font-size:18px;font-weight: 900;color: white !important;">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size:18px !important;font-weight: 900 !important;color: white !important;text-transform: none !important;">What we do</a>
+            <div class="dropdown-menu">
+                <a href="#digitalmarketing" class="dropdown-item">Digital Marketing</a>
+                <a href="#" class="dropdown-item">Web Development</a>
+                <a href="#" class="dropdown-item">Design</a>
+                <a href="#" class="dropdown-item">Branding</a>
+                <a href="#" class="dropdown-item">Paid Ads</a>
+            </div>
+        </li>
           <li class="nav-item">
             <a href="./contact.html" class="page-scroll">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="page-scroll">Blog</a>
           </li>
         </ul>
       </div>
@@ -146,7 +150,7 @@
               <li data-target="#service" data-slide-to="6"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
+              <div class="carousel-item active" id="digitalmarketing">
                 <div class="container-fluid">
                   <div class="row h-100">
                     <div
@@ -473,7 +477,7 @@
             </div>
             <a
               class="carousel-control-prev justify-content-start"
-              href="#service"
+              href="#service" 
               role="button"
               data-slide="prev"
             >

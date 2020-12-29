@@ -19,9 +19,53 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./static/css/contact-style.css" />
+    
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid bg-transparent text-center mb-0 pt-4">
+    <nav
+      class="navbar navbar-expand-lg p-0 w-100 justify-content-between navbar-dark"
+    >
+      <a class="navbar-brand" href="#">
+        <img class="img-fluid blacklist" src="./resource/logo.png" />
+      </a>
+      <button
+        class="navbar-toggler mr-4"
+        type="button"
+        data-toggle="collapse"
+        data-target="#nav"
+        aria-controls="nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        id="nav"
+        class="collapse navbar-collapse nav-wrapper justify-content-lg-end"
+      >
+        <ul
+          class="navbar-nav flex-column flex-lg-row justify-content-between align-items-center align-items-lg-left mt-3 mt-lg-auto"
+        >
+          <li class="nav-item">
+            <a href="#" class="page-scroll">Our Work</a>
+          </li>
+          <li class="nav-item dropdown" style="font-size:18px;font-weight: 900;color: white !important;">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size:18px !important;font-weight: 900 !important;color: white !important;text-transform: none !important;">What we do</a>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Digital Marketing</a>
+                <a href="#" class="dropdown-item">Web Development</a>
+                <a href="#" class="dropdown-item">Design</a>
+                <a href="#" class="dropdown-item">Branding</a>
+                <a href="#" class="dropdown-item">Paid Ads</a>
+            </div>
+        </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="page-scroll">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid bg-transparent text-center mb-0 pt-4" id="main">
       <div
         class="container d-flex flex-column align-items-center justify-content-center"
       >
@@ -83,6 +127,80 @@
         </div>
       </div>
     </div>
+    <footer class="py-5 position-relative" id="footer">
+      <img
+        id="footer-img"
+        class="position-absolute w-100 h-100 img-fluid"
+        src="resource/map.png"
+        alt="footer image"
+      />
+      <div class="container w-75" style="width: 100% !important;">
+        <div class="row text-left">
+          <div class="col-md text-center text-md-left mb-3 mb-md-auto">
+            <img
+              src="resource/logo.png"
+              class="img-fluid blacklist ml-5 ml-md-auto"
+            />
+          </div>
+          <div class="col-md text-center text-md-left mb-4 mb-md-auto">
+            <h5 class="display-5 font-weight-bold mb-4">About</h5>
+            <p>
+             We at Delhi Digital ensure that we understand your brand essence and create
+             a customized digital experience so that your brand by the people that matter the most. 
+             We try to create an effective social media strategy for the brands and running effective 
+              social media campaigns that will boost your online presence.
+            </p>
+          </div>
+          <div class="col-md text-center  mb-4 mb-md-auto">
+            <h5 class="display-5 font-weight-bold mb-4">Services</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">SEO</a></li>
+              <li><a href="#">Designs</a></li>
+              <li><a href="#">Paid ads</a></li>
+              <li><a href="#">Branding</a></li>
+              <li><a href="#">Marketing</a></li>
+            </ul>
+          </div>
+          <div class="col-md text-center">
+            <h5 class="display-5 font-weight-bold mb-3 mb-md-5">Reach Out</h5>
+            <ul class="list-unstyled">
+              <li class="d-inline d-md-block mr-3 mr-md-auto">+91 9205110208</li>
+              <li class="d-inline d-md-block mb-4">Hello@delhidigital.co</li>
+              <li>
+                <div
+                  id="footer-socials"
+                  class="container w-75 d-flex justify-content-around align-items-center mt-3 mt-md-0"
+                >
+                  <a href="#"
+                    ><img
+                      width="15"
+                      height="25"
+                      src="./resource/facebook-vector.png"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      width="25"
+                      height="25"
+                      src="./resource/instagram-vector.png"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      width="25"
+                      height="25"
+                      src="./resource/linkedin-vector.png"
+                  /></a>
+                  <a href="#"
+                    ><img width="20" height="20" src="./resource/call.png"
+                  /></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
       async
