@@ -1,7 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
+:root {
+  --bg-color: #151515;
+  --font: Poppins, "sans-serif";
+  --font-color: white;
+  --nav-background: #222538;
+  --nav-font-size: 18px;
+  --nav-font-boldness: 900;
+  --subheading-color: #787171;
+  --page3-background: #5a5a5a;
+}
 body {
   font: Poppins, "sans-serif";
+}
+a {
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--font-color);
+  text-decoration: none;
+  outline: none;
+  opacity: 0.9;
+}
+nav {
+  box-shadow: none !important;
+  background: var(--nav-background);
+}
+
+nav ul {
+  width: 75%;
+  font-size: var(--nav-font-size);
+  font-weight: var(--nav-font-boldness);
+  padding-right: 6rem;
+}
+
+.navbar-brand {
+  flex: 1;
 }
 
 header {
@@ -78,6 +113,39 @@ footer .jumbotron {
   border-radius: 35px;
 }
 
+footer {
+  position: relative;
+  margin-bottom: 0;
+  background: #222538;
+  overflow: hidden;
+}
+
+#footer-img {
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  object-fit: cover;
+}
+
+footer p {
+  line-height: 1.6rem;
+  color: white;
+}
+.footer-color{
+  color: white;
+}
+footer ul {
+  line-height: 1.6rem;
+}
+
+#footer-socials a {
+  transition: filter 300ms;
+
+}
+
+#footer-socials a:hover {
+  filter: brightness(150%);
+}
 @media screen and (max-width: 1024px) {
   header p {
     width: 100%;
