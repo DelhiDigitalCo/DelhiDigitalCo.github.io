@@ -23,6 +23,49 @@
     <link rel="stylesheet" href="./static/css/showcase.css" />
   </head>
   <body>
+    <nav
+      class="navbar navbar-expand-lg p-0 w-100 justify-content-between navbar-dark"
+    >
+      <a class="navbar-brand" href="index.html">
+        <img class="img-fluid blacklist" src="./resource/logo.png" />
+      </a>
+      <button
+        class="navbar-toggler mr-4"
+        type="button"
+        data-toggle="collapse"
+        data-target="#nav"
+        aria-controls="nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        id="nav"
+        class="collapse navbar-collapse nav-wrapper justify-content-lg-end"
+      >
+        <ul
+          class="navbar-nav flex-column flex-lg-row justify-content-between align-items-center align-items-lg-left mt-3 mt-lg-auto"
+        >
+          <li class="nav-item">
+            <a href="#" class="page-scroll">Our Work</a>
+          </li>
+          <li class="nav-item dropdown" style="font-size:18px;font-weight: 900;color: white !important;">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size:18px !important;font-weight: 900 !important;color: white !important;text-transform: none !important;">What we do</a>
+            <div class="dropdown-menu">
+                <a href="#"  class="dropdown-item">Digital Marketing</a>
+                <a href="#"  class="dropdown-item">Web Development</a>
+                <a href="#" class="dropdown-item">Design</a>
+                <a href="#" class="dropdown-item">Branding</a>
+                <a href="#" class="dropdown-item">Paid Ads</a>
+            </div>
+        </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="page-scroll">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <header class="mb-5">
       <div class="container">
         <div class="row">
@@ -72,30 +115,34 @@
         <div class="col-md border-dark mb-4 mb-md-auto">
           <div class="container-fluid">
             <h3 class="mb-4">About The Project</h3>
-            <p class="w-75 mx-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy. (A
-              little overview about the website)
+            <p style ="text-align: justify;" class="w-75 mx-auto">
+              Bageeya’s website project was one of it’s kind for us at DDC. 
+              Bageeya is a sustainable clothing brand having a deep association 
+              with nature aesthetics and the idea of sustainability. The aim behind this 
+              project was to creatively design a website that inculcates the core principles of 
+              the brand,conveys it’s ideas and leaves a lasting impression on the viewer.
             </p>
           </div>
         </div>
         <div class="col-md border-dark mb-4 mb-md-auto">
           <div class="container-fluid">
             <h3 class="mb-4">Clients Requirements</h3>
-            <p class="w-75 mx-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy. (A
-              little overview about the website)
+            <p style ="text-align: justify;" class="w-75 mx-auto">
+              The client had a set of requirements such as watermarked elements of different artworks 
+              placed in watercolour texture. Suitable placement of charkha on the landing page was one and 
+              handmade paper’s texture as background was another.
             </p>
           </div>
         </div>
         <div class="col-md">
           <div class="container-fluid">
-            <h3 class="mb-4">Some Third Point</h3>
-            <p class="w-75 mx-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy. (A
-              little overview about the website)
+            <h3 class="mb-4">How we went with it</h3>
+            <p style ="text-align: justify;" class="w-75 mx-auto">
+              Our designers made sure that all the requirements of the client were kept in mind and fulfilled. 
+              The colour theme of the website was entirely in tones of green to associate it with the brand image 
+              and a special blog section was added on the website to boost SEO. 
+              <!-- That was not all, a unique crossword was designed to highlight the people associated with the brand 
+              under the header ‘Bageeya’s Treasures’. -->
             </p>
           </div>
         </div>
@@ -122,9 +169,9 @@
                   </p>
                   <p>
                     <ul id="checklist1">
-                      <li class="d-flex"><img width="20" height="20" src="./resource/checkbox.png"><div>The quick brown fox jumps over the lazy dog</div></li>
-                      <li class="d-flex"><img width="20" height="20" src="./resource/checkbox.png"><div>The quick brown fox jumps over the lazy dog</div></li>
-                      <li class="d-flex"><img width="20" height="20" src="./resource/checkbox.png"><div>The quick brown fox jumps over the lazy dog</div></li>
+                      <li class="d-flex"><img width="20" height="20" src="./resource/checkbox.png"><div>The landing page was designed keeping in mind the brand values and it’s core principles.</div></li>
+                      <li class="d-flex"><img width="20" height="20" src="./resource/checkbox.png"><div>The font styles and sliding graphics were chosen appropriately</div></li>
+                      <li class="d-flex"><img width="20" height="20" src="./resource/checkbox.png"><div>Various artworks were added to balance the content-visual ratio of the page.</div></li>
                       <li class="d-flex"><img width="20" height="20" src="./resource/checkbox.png"><div>The quick brown fox jumps over the lazy dog</div></li>
                     </ul>
                   </p>
@@ -169,7 +216,7 @@
       </div>
     </main>
 
-    <footer class='mb-0'>
+    <!-- <div class='mb-0'>
       <div class="jumbotron jumbotron-fluid mb-0 text-center">
         <div class="container">
           <h1 class="display-3 mt-5 mb-4 font-weight-bold">That’s not it!</h1>
@@ -183,6 +230,80 @@
               abcd
             </button>
           </p>
+        </div>
+      </div>
+    </div> -->
+    <footer class="py-5 position-relative" id="footer">
+      <img
+        id="footer-img"
+        class="position-absolute w-100 h-100 img-fluid"
+        src="resource/map.png"
+        alt="footer image"
+      />
+      <div class="container w-75" style="width: 100% !important;" id="footercontent">
+        <div class="row text-left">
+          <div class="col-md text-center text-md-left mb-3 mb-md-auto">
+            <img
+              src="resource/logo.png"
+              class="img-fluid blacklist ml-5 ml-md-auto"
+            />
+          </div>
+          <div class="col-md text-center text-md-left mb-4 mb-md-auto">
+            <h5 class="footer-color display-5 font-weight-bold mb-4">About</h5>
+            <p>
+             We at Delhi Digital ensure that we understand your brand essence and create
+             a customized digital experience so that your brand by the people that matter the most. 
+             We try to create an effective social media strategy for the brands and running effective 
+              social media campaigns that will boost your online presence.
+            </p>
+          </div>
+          <div class="col-md text-center  mb-4 mb-md-auto">
+            <h5 class="footer-color display-5 font-weight-bold mb-4">Services</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">SEO</a></li>
+              <li><a href="#">Designs</a></li>
+              <li><a href="#">Paid ads</a></li>
+              <li><a href="#">Branding</a></li>
+              <li><a href="#">Marketing</a></li>
+            </ul>
+          </div>
+          <div class="col-md text-center">
+            <h5 class="footer-color display-5 font-weight-bold mb-3 mb-md-5">Reach Out</h5>
+            <ul class="footer-color list-unstyled">
+              <li class="d-inline d-md-block mr-3 mr-md-auto">+91 9205110208</li>
+              <li class="d-inline d-md-block mb-4">Hello@delhidigital.co</li>
+              <li>
+                <div
+                  id="footer-socials"
+                  class="container w-75 d-flex justify-content-around align-items-center mt-3 mt-md-0"
+                >
+                  <a href="#"
+                    ><img
+                      width="15"
+                      height="25"
+                      src="./resource/facebook-vector.png"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      width="25"
+                      height="25"
+                      src="./resource/instagram-vector.png"
+                  /></a>
+                  <a href="#"
+                    ><img
+                      width="25"
+                      height="25"
+                      src="./resource/linkedin-vector.png"
+                  /></a>
+                  <a href="#"
+                    ><img width="20" height="20" src="./resource/call.png"
+                  /></a>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
