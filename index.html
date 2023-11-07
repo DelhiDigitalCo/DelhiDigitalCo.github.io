@@ -1,913 +1,734 @@
-<!DOCTYPE html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>
-      Delhi Digital Co. | New Delhi Web Design Agency | Web Development
-    </title>
-    <meta
-      name="description"
-      content="Delhi Digital Co. is a web design and development agency obsessed with business. Our work is focused on deriving growth for your business in the digital domain."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
-      integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./static/css/style.css" />
-  </head>
-  <body>
-    <!-- [if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif] -->
+<!doctype html>
+<html lang="en">
 
-    <nav
-      class="navbar navbar-expand-lg p-0 w-100 justify-content-between navbar-dark"
-    >
-      <a class="navbar-brand" href="index.html">
-        <img class="img-fluid blacklist" src="./resource/logo.png" />
-      </a>
-      <button
-        class="navbar-toggler mr-4"
-        type="button"
-        data-toggle="collapse"
-        data-target="#nav"
-        aria-controls="nav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        id="nav"
-        class="collapse navbar-collapse nav-wrapper justify-content-lg-end"
-      >
-        <ul
-          class="navbar-nav flex-column flex-lg-row justify-content-between align-items-center align-items-lg-left mt-3 mt-lg-auto"
-        >
-          <li class="nav-item">
-            <a href="work.html" class="page-scroll">Our Work</a>
-          </li>
-          <li class="nav-item dropdown" style="font-size:18px;font-weight: 900;color: white !important;">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size:18px !important;font-weight: 900 !important;color: white !important;text-transform: none !important;">What we do</a>
-            <div class="dropdown-menu">
-                <a href="#"  class="dropdown-item">Digital Marketing</a>
-                <a href="websites.html"  class="dropdown-item">Web Development</a>
-                <a href="#" class="dropdown-item">Design</a>
-                <a href="#" class="dropdown-item">Branding</a>
-                <a href="#" class="dropdown-item">Paid Ads</a>
-            </div>
-        </li>
-          <li class="nav-item">
-            <a href="./contact.html" class="page-scroll">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <main class="container-fluid">
-      <div id="page1" class="row pt-5">
-        <div class="col d-flex justify-content-center align-items-center">
-          <div class="jumbotron jumbotron-fluid bg-transparent">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Festava Live - Bootstrap 5 CSS Template</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/templatemo-festava-live.css" rel="stylesheet">
+
+    <!--
+
+TemplateMo 583 Festava Live
+
+https://templatemo.com/tm-583-festava-live
+
+-->
+</head>
+
+<body>
+
+    <main>
+
+        <header class="site-header">
             <div class="container">
-              <h1
-                class="display-3 font-weight-bold mb-4 text-center text-sm-left"
-              >
-              Building Ventures, Digitally
-              </h1>
-              <p class="lead subheading text-center text-sm-left">
-                WEBSITES .UI/UX .DESIGN .BRANDING .<br />
-                CONTENT CREATION .DIGITAL MARKETING
-              </p>
-              <p class="lead text-center text-md-left">
-                <a
-                  id="getinTouch"
-                  class="btn btn-primary btn-lg"
-                  href="./contact.html"
-                  role="button"
-                  >Get In Touch</a
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex justify-content-center align-items-center">
-          <div id="social-icons">
-            <img
-              width="60"
-              height="60"
-              src="./resource/twitter.jpg"
-              class="floating"
-            />
-            <img
-              width="50"
-              height="50"
-              src="./resource/facebook.png"
-              class="floating"
-            />
-            <img
-              width="60"
-              height="60"
-              src="./resource/insta.jpg"
-              class="floating"
-            />
-          </div>
-        </div>
-      </div>
-      <div id="page2" class="row position-relative">
-        <div class="container-fluid">
-          <h1
-            class="row w-100 justify-content-center align-items-center font-weight-bold mb-5 mx-auto"
-          >
-            Our Services
-          </h1>
-          <div
-            id="service"
-            class="carousel slide"
-            data-ride="carousel"
-            data-interval="false"
-            data-touch="true"
-          >
-            <ol
-              class="carousel-indicators position-relative mb-5 d-none d-md-flex"
-            >
-              <li data-target="#service" data-slide-to="0" class="active"></li>
-              <li data-target="#service" data-slide-to="1"></li>
-              <li data-target="#service" data-slide-to="2"></li>
-              <li data-target="#service" data-slide-to="3"></li>
-              <li data-target="#service" data-slide-to="4"></li>
-              <li data-target="#service" data-slide-to="5"></li>
-              <li data-target="#service" data-slide-to="6"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox" >
-              <div class="carousel-item active" id="digitalmarketing">
-                <div class="container-fluid">
-                  <div class="row h-100">
-                    <div
-                      class="col-lg-5 d-flex align-items-center justify-content-center"
-                    >
-                      <img class="img-fluid" src="./resource/phone.gif" />
-                    </div>
-                    <div
-                      class="col d-flex align-items-center justify-content-center"
-                    >
-                      <div
-                        class="jumbotron jumbotron-fluid bg-transparent pl-sm-5"
-                      >
-                        <div class="container text-center text-md-left">
-                          <h1 class="display-4 font-weight-bold">
-                            Digital Marketing
-                          </h1>
-                          <p class="lead page-2-text-color mb-5">
-                            To grow. Create. Together.
-                          </p>
-                          <hr class="my-2" />
-                          <p class="width-size mb-5 mx-auto mx-md-0">
-                            As SMM experts,we form an effective marketing
-                            strategy and campaigns to harness the power of
-                            social media platforms to expand your business
-                            digitally and in turn grow it to greater heights.
-                          </p>
-                          <p class="lead pt-sm-5">
-                            <a
-                              id="moreInfo"
-                              class="btn btn-primary btn-lg page-2-btn"
-                              href="./digital.html"
-                              role="button"
-                              >I would Like More Information</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container-fluid">
-                  <div class="row h-100">
-                    <div
-                      class="col-lg-5 d-flex align-items-center justify-content-center"
-                    >
-                      <img
-                        class="img-fluid blacklist"
-                        src="./resource/iMac.png"
-                      />
-                    </div>
-                    <div
-                      class="col d-flex align-items-center justify-content-center"
-                    >
-                      <div
-                        class="jumbotron jumbotron-fluid bg-transparent pl-sm-5"
-                      >
-                        <div class="container text-center text-md-left">
-                          <h1 class="display-4 font-weight-bold">
-                            Website / UI-UX / Mobile App Development
-                          </h1>
-                          <p class="lead page-2-text-color mb-5">
-                            To grow. Create. Together.
-                          </p>
-                          <hr class="my-2" />
-                          <p class="width-size mb-5 mx-auto mx-md-0">
-                            Our Designers/Developers create responsive and
-                            beautiful mobile friendly websites ,apps and deliver
-                            rich-featured websites and apps that impress,perform
-                            and leverage your brand to greater heights.
-                          </p>
-                          <p class="lead pt-3 pt-sm-5">
-                            <a
-                              id="moreInfo"
-                              class="btn btn-primary btn-lg page-2-btn"
-                              href="./work.html"
-                              role="button"
-                              >I would Like More Information</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container-fluid">
-                  <div class="row h-100">
-                    <div
-                      class="col-lg-5 d-flex align-items-center justify-content-center mb-lg-5 p-lg-5"
-                    >
-                      <img
-                        class="img-fluid w-75 blacklist"
-                        src="./resource/laptop.png"
-                      />
-                    </div>
-                    <div
-                      class="col d-flex align-items-center justify-content-center"
-                    >
-                      <div
-                        class="jumbotron jumbotron-fluid bg-transparent pl-sm-5"
-                      >
-                        <div
-                          class="container text-center text-md-left pl-auto pl-md-5"
-                        >
-                          <h1 class="display-4 font-weight-bold mb-2">
-                            Search Engine Optimization :
-                          </h1>
-                          <p class="lead page-2-text-color mb-5">
-                            To grow. Create. Together.
-                          </p>
-                          <hr class="my-2" />
-                          <p class="width-size mb-5 mx-auto mx-md-0">
-                            Under our SEO services we work on optimization of
-                            the brand’s website to attain higher ranking on
-                            Search engine results to get an edge over the
-                            competitive market.
-                          </p>
-                          <p class="lead pt-3 pt-sm-5">
-                            <a
-                              id="moreInfo"
-                              class="btn btn-primary btn-lg page-2-btn"
-                              href="./digital.html"
-                              role="button"
-                              >View Designs</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container-fluid">
-                  <div class="row h-100">
-                    <div
-                      class="col-lg-5 d-flex align-items-center justify-content-center ml-lg-5 p-5"
-                    >
-                      <img
-                        class="img-fluid blacklist"
-                        src="./resource/designs.png"
-                      />
-                    </div>
-                    <div
-                      class="col d-flex align-items-center justify-content-center"
-                    >
-                      <div
-                        class="jumbotron jumbotron-fluid bg-transparent pl-sm-5 pt-xl-0 mb-0"
-                      >
-                        <div
-                          class="container text-center text-md-left pl-auto pl-md-5"
-                        >
-                          <h1 class="display-4 font-weight-bold mb-3 mb-md-5">
-                            Graphic Design
-                          </h1>
-                          <hr class="my-2" />
-                          <p class="width-size mb-4 mx-auto mx-md-0">
-                            With a team of creative and visionary designers, we
-                            leave no stone unturned in developing creatives that
-                            leave a lasting visual impression on the viewers and
-                            communicate the brand message aptly.
-                          </p>
-                          <p class="lead pt-3 pt-sm-5">
-                            <a
-                              id="moreInfo"
-                              class="btn btn-primary btn-lg page-2-btn"
-                              href="./work.html"
-                              role="button"
-                              >View Designs</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container-fluid">
-                  <div class="row h-100">
-                    <div
-                      class="col-lg-5 d-flex align-items-center justify-content-center mb-5 mt-3 p-md-5"
-                    >
-                      <img
-                        class="img-fluid w-75 blacklist"
-                        src="./resource/adverts.png"
-                      />
-                    </div>
-                    <div
-                      class="col d-flex align-items-center justify-content-center"
-                    >
-                      <div
-                        class="jumbotron jumbotron-fluid bg-transparent pl-sm-5"
-                      >
-                        <div
-                          class="container text-center text-md-left pl-auto pl-md-5"
-                        >
-                          <h1 class="display-4 font-weight-bold mb-2">
-                            Paid Advertisement Services
-                          </h1>
-                          <p class="lead page-2-text-color mb-3 mb-md-5">
-                            To grow. Create. Together.
-                          </p>
-                          <hr class="my-2" />
-                          <p class="width-size mb-5 mx-auto mx-md-0">
-                            Our team of enthusiastic wordsmiths works to develop
-                            content that not only attracts the eye of the reader
-                            but also effectively communicates the brand values
-                            and aesthetics to the targeted audience.
-                          </p>
-                          <p class="lead pt-3 pt-sm-5">
-                            <a
-                              id="moreInfo"
-                              class="btn btn-primary btn-lg page-2-btn"
-                              href="./digital.html"
-                              role="button"
-                              >View Designs</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container-fluid">
-                  <div class="row h-100">
-                    <div
-                      class="col-lg-5 d-flex align-items-center justify-content-center ml-lg-5 mb-0 mb-md-auto pt-0 px-md-5 pb-md-5"
-                    >
-                      <img
-                        class="img-fluid blacklist"
-                        src="./resource/branding.png"
-                      />
-                    </div>
-                    <div
-                      class="col d-flex align-items-center justify-content-center"
-                    >
-                      <div
-                        class="jumbotron jumbotron-fluid bg-transparent pl-sm-5 pt-xl-0 mb-0"
-                      >
-                        <div
-                          class="container text-center text-md-left pl-auto pl-md-5"
-                        >
-                          <h1 class="display-4 font-weight-bold mb-3 mb-md-5">
-                            Branding
-                          </h1>
-                          <hr class="my-2" />
-                          <p class="width-size mb-4 mx-auto mx-md-0">
-                            Our team aims to develop a strategically structured
-                            marketing strategy that can expand the brand’s reach
-                            in the prospective market. Our branding services
-                            incorporate a perfect mix of visual and content
-                            strategy to generate an enticing brand face.
-                          </p>
-                          <p class="lead pt-3 pt-sm-5">
-                            <a
-                              id="moreInfo"
-                              class="btn btn-primary btn-lg page-2-btn"
-                              href="./work.html"
-                              role="button"
-                              >Know More</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container-fluid">
-                  <div class="row h-100">
-                    <div
-                      class="col-lg-5 d-flex align-items-center justify-content-center mb-md-5 pt-0 px-5 pb-5"
-                    >
-                      <img
-                        class="img-fluid blacklist"
-                        src="./resource/email.png"
-                      />
-                    </div>
-                    <div
-                      class="col d-flex align-items-center justify-content-center"
-                    >
-                      <div
-                        class="jumbotron jumbotron-fluid bg-transparent pl-sm-5"
-                      >
-                        <div
-                          class="container text-center text-md-left pl-auto pl-md-5"
-                        >
-                          <h1 class="display-4 font-weight-bold mb-2">
-                            Email Marketing
-                          </h1>
-                          <p class="lead page-2-text-color mb-5">
-                            To grow. Create. Together.
-                          </p>
-                          <hr class="my-2" />
-                          <p class="width-size mb-5 mx-auto mx-md-0">
-                            With this we aim to put in use the magic bullet
-                            theory and advertise the brand to the targeted
-                            customers through Emails in order to boost sales and
-                            propagate the brand idea time and again.
-                          </p>
-                          <p class="lead pt-3 pt-sm-5">
-                            <a
-                              id="moreInfo"
-                              class="btn btn-primary btn-lg page-2-btn"
-                              href="./digital.html"
-                              role="button"
-                              >Know More</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a
-              class="carousel-control-prev justify-content-start"
-              href="#service" 
-              role="button"
-              data-slide="prev"
-              onclick="$('#service').carousel('prev')"
-            >
-              <img
-                class="position-absolute w-25"
-                src="resource/carousel-left.png"
-                aria-hidden="true"
-              />
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next justify-content-end"
-              href="#service"
-              role="button"
-              data-slide="next"
-              onclick="$('#service').carousel('next')"
-            >
-              <img
-                class="position-absolute w-25"
-                src="resource/corousel-right.png"
-                aria-hidden="true"
-              />
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="page3" class="row position-relative h-auto">
-        <img id="hexBg" width="300px" class="position-absolute d-none d-lg-block" src="./resource/hex.png" alt="sweet hexagons">
-        <div class="container">
-          <h1
-            class="row w-100 justify-content-center align-items-center font-weight-bold my-5 mx-auto text-center"
-          >
-            Our Methodology
-          </h1>
-          <div class="row mb-md-5 justify-content-between">
-            <div class="col col-lg-3">
-              <div class="card bg-white text-dark d-flex align-items-center">
-                <div class="container-fluid my-auto">
-                  <div class="card-body">
-                    <div
-                      class="card-heading d-flex align-items-center justify-content-start mb-3"
-                    >
-                      <h4 class="text-primary font-weight-bold">01</h4>
-                      <div
-                        class="card-title d-flex justify-content-center align-items-center font-weight-bold mb-0 ml-4"
-                      >
-                        Proven Results
-                      </div>
-                    </div>
-                    <p
-                      class="card-text d-flex justify-content-center align-items-center"
-                    >
-                      We have proven results over different aspects of digital
-                      marketing and web development.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col col-lg-3">
-              <div class="card bg-white text-dark d-flex align-items-center">
-                <div class="container-fluid my-auto">
-                  <div class="card-body">
-                    <div class="card-heading d-flex justify-content-start mb-3">
-                      <h4 class="text-primary font-weight-bold">02</h4>
-                      <div
-                        class="card-title d-flex justify-content-center align-items-center font-weight-bold mb-0 ml-4"
-                      >
-                        Client Trust and Satisfaction
-                      </div>
-                    </div>
-                    <p
-                      class="card-text d-flex justify-content-center align-items-center"
-                    >
-                      We understand our client’s need and available to work 24x7
-                      according to them.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col col-lg-3 mt-0 mt-sm-3 mt-lg-0">
-              <div class="card bg-white text-dark d-flex align-items-center">
-                <div class="container-fluid my-auto">
-                  <div class="card-body">
-                    <div class="card-heading d-flex justify-content-start mb-3">
-                      <h4 class="text-primary font-weight-bold">03</h4>
-                      <div
-                        class="card-title d-flex justify-content-center align-items-center font-weight-bold mb-0 ml-4"
-                      >
-                        Dedicated Team Experts
-                      </div>
-                    </div>
-                    <p
-                      class="card-text d-flex justify-content-center align-items-center"
-                    >
-                      At DDC, we have dedicated team who have expertise over
-                      various aspects of marketing strategies
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row mb-5 justify-content-between">
-            <div class="col col-lg-3">
-              <div class="card bg-white text-dark d-flex align-items-center">
-                <div class="container-fluid my-auto">
-                  <div class="card-body">
-                    <div class="card-heading d-flex justify-content-start mb-3">
-                      <h4 class="text-primary font-weight-bold">04</h4>
-                      <div
-                        class="card-title d-flex justify-content-center align-items-center font-weight-bold mb-0 ml-4"
-                      >
-                        End-to-End Solution
-                      </div>
-                    </div>
-                    <p
-                      class="card-text d-flex justify-content-center align-items-center"
-                    >
-                      DDC provide all types of online marketing services so you don’t have to rely on anyone else.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col col-lg-3">
-              <div class="card bg-white text-dark d-flex align-items-center">
-                <div class="container-fluid my-auto">
-                  <div class="card-body">
-                    <div class="card-heading d-flex justify-content-start mb-3">
-                      <h4 class="text-primary font-weight-bold">05</h4>
-                      <div
-                        class="card-title d-flex justify-content-center align-items-center font-weight-bold mb-0 ml-4"
-                      >
-                        Customer-centric Perspective
-                      </div>
-                    </div>
-                    <p
-                      class="card-text d-flex justify-content-center align-items-center"
-                    >
-                      DDC provide all types of online marketing services so you don’t have to rely on anyone else.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col col-lg-3 mt-0 mt-sm-3 mt-lg-0">
-              <div class="card bg-white text-dark d-flex align-items-center">
-                <div class="container-fluid my-auto">
-                  <div class="card-body">
-                    <div class="card-heading d-flex justify-content-start mb-3">
-                      <h4 class="card-primary font-weight-bold">06</h4>
-                      <div
-                        class="card-title d-flex justify-content-center align-items-center font-weight-bold mb-0 ml-4"
-                      >
-                        Progressive Approach
-                      </div>
-                    </div>
-                    <p
-                      class="card-text d-flex justify-content-center align-items-center"
-                    >
-                      Our team uses latest trends in the technology and digital marketing strategies to boost the online presence of your business rapidly.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="page4" class="row position-relative align-items-center">
-        <div class="container-fluid">
-          <div
-            id="testimonial"
-            class="carousel slide"
-            data-ride="carousel"
-            data-touch="true"
-          >
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <div class="container w-50">
-                  <div
-                    class="row justify-content-center justify-content-md-start align-items-center mb-4"
-                  >
-                    <div class="col-md-3 text-center text-md-left pl-md-0">
-                      <img
-                        class="img-fluid rounded-circle"
-                        src="resource/client-1.png"
-                      />
-                    </div>
-                    <div class="col col-md-4 text-center text-md-left pl-md-0">
-                      <h5 class="font-weight-bold">Jyotsna Singh Bisht</h5>
-                      <div>Founder - July Issue</div>
-                    </div>
-                  </div>
-                  <div class="row text-center text-md-left">
-                    <div class="col">
-                      Worked with Delhi Digital Co. for Paid Ads and the Website.I am amazed with the scale my business is growing.The team is very Professional and Proactive. 
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container w-50">
-                  <div
-                    class="row justify-content-center justify-content-md-start align-items-center mb-4"
-                  >
-                    <div class="col-md-3 text-center text-md-left pl-md-0">
-                      <img
-                        class="img-fluid rounded-circle"
-                        src="resource/client-1.png"
-                      />
-                    </div>
-                    <div class="col col-md-4 text-center text-md-left pl-md-0">
-                      <h5 class="font-weight-bold">Puneet Malhotra</h5>
-                      <div>Founder - Cameleon Cosmetics</div>
-                    </div>
-                  </div>
-                  <div class="row text-center text-md-left">
-                    <div class="col">
-                      So pleased!!!! Can't thank them enough for the beautiful job on our website.They have fully embraced their digital marketing knowledge into the digital stabilization of our firm. Highly Recommended.  
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container w-50">
-                  <div
-                    class="row justify-content-center justify-content-md-start align-items-center mb-4"
-                  >
-                    <div class="col-md-3 text-center text-md-left pl-md-0">
-                      <img
-                        class="img-fluid rounded-circle"
-                        src="resource/client-1.png"
-                      />
-                    </div>
-                    <div class="col col-md-4 text-center text-md-left pl-md-0">
-                      <h5 class="font-weight-bold">Jigisha Shukla</h5>
-                      <div>Founder - Bageeya</div>
-                    </div>
-                  </div>
-                  <div class="row text-center text-md-left">
-                    <div class="col">
-                      I am so satisfied with the quality of work delivered by this agency. I approached them for creating a website for my firm. I appreciate them for taking all my concerns into consideration. I would highly recommend them for Website Development and Digital Marketing services provided by them.  
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container w-50">
-                  <div
-                    class="row justify-content-center justify-content-md-start align-items-center mb-4"
-                  >
-                    <div class="col-md-3 text-center text-md-left pl-md-0">
-                      <img
-                        class="img-fluid rounded-circle"
-                        src="resource/client-1.png"
-                      />
-                    </div>
-                    <div class="col col-md-4 text-center text-md-left pl-md-0">
-                      <h5 class="font-weight-bold">Richa Johri</h5>
-                      <div>Founder - LakePeace</div>
-                    </div>
-                  </div>
-                  <div class="row text-center text-md-left">
-                    <div class="col">
-                      DDC is incredible when it comes to the Digital Marketing.Their team is highly reliable, talented and professional. 
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="container w-50">
-                  <div
-                    class="row justify-content-center justify-content-md-start align-items-center mb-4"
-                  >
-                    <div class="col-md-3 text-center text-md-left pl-md-0">
-                      <img
-                        class="img-fluid rounded-circle"
-                        src="resource/client-1.png"
-                      />
-                    </div>
-                    <div class="col col-md-4 text-center text-md-left pl-md-0">
-                      <h5 class="font-weight-bold">Hitesh Nayyar</h5>
-                      <div>Founder - Itari Botanicals</div>
-                    </div>
-                  </div>
-                  <div class="row text-center text-md-left">
-                    <div class="col">
-                      Our collaboration with DDC has been an amazing journey. They have skilled, enthusiastic, professional workers. They have professionals under every specialization and the quality of product delivered is incredible. To sum up I would highly recommend them. 
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a
-              class="carousel-control-prev justify-content-start justify-content-md-center"
-              href="#testimonial"
-              role="button"
-              data-slide="prev"
-              
-            >
-              <img
-                src="resource/arrow-left.png"
-                class="rounded-circle bg-white p-2"
-                aria-hidden="true"
-              />
-              <span class="sr-only">Previous</span>
-            </a>
+                <div class="row">
 
-            <a
-              class="carousel-control-next justify-content-end justify-content-md-center"
-              href="#testimonial"
-              role="button"
-              data-slide="next"
-              
-            >
-              <img
-                src="resource/arrow-right.png"
-                class="rounded-circle bg-white p-2"
-                aria-hidden="true"
-              />
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
+                    <div class="col-lg-12 col-12 d-flex flex-wrap">
+                        <p class="d-flex me-4 mb-0">
+                            <i class="bi-person custom-icon me-2"></i>
+                            <strong class="text-dark">Welcome to Music Festival 2023</strong>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    Festava Live
+                </a>
+
+                <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_2">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">Artists</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_4">Schedule</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">Pricing</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_6">Contact</a>
+                        </li>
+                    </ul>
+
+                    <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="hero-section" id="section_1">
+            <div class="section-overlay"></div>
+
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="row">
+
+                    <div class="col-12 mt-auto mb-5 text-center">
+                        <small>Festava Live Presents</small>
+
+                        <h1 class="text-white mb-5">Night Live 2023</h1>
+
+                        <a class="btn custom-btn smoothscroll" href="#section_2">Let's begin</a>
+                    </div>
+
+                    <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
+                        <div class="date-wrap">
+                            <h5 class="text-white">
+                                <i class="custom-icon bi-clock me-2"></i>
+                                10 - 12<sup>th</sup>, Dec 2023
+                            </h5>
+                        </div>
+
+                        <div class="location-wrap mx-auto py-3 py-lg-0">
+                            <h5 class="text-white">
+                                <i class="custom-icon bi-geo-alt me-2"></i>
+                                National Center, United States
+                            </h5>
+                        </div>
+
+                        <div class="social-share">
+                            <ul class="social-icon d-flex align-items-center justify-content-center">
+                                <span class="text-white me-3">Share:</span>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link">
+                                        <span class="bi-facebook"></span>
+                                    </a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link">
+                                        <span class="bi-twitter"></span>
+                                    </a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="#" class="social-icon-link">
+                                        <span class="bi-instagram"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-wrap">
+                <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                    <source src="video/pexels-2022395.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+
+        <section class="about-section section-padding" id="section_2">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+                        <div class="services-info">
+                            <h2 class="text-white mb-4">About Festava 2022</h2>
+
+                            <p class="text-white">Festava Live is free CSS template provided by TemplateMo website. This
+                                layout is built on Bootstrap v5.2.2 CSS library. You are free to use this template for
+                                your commercial website.</p>
+
+                            <h6 class="text-white mt-4">Once in Lifetime Experience</h6>
+
+                            <p class="text-white">You are not allowed to redistribute the template ZIP file on any other
+                                website without a permission.</p>
+
+                            <h6 class="text-white mt-4">Whole Night Party</h6>
+
+                            <p class="text-white">Please tell your friends about our website. Thank you.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="about-text-wrap">
+                            <img src="images/pexels-alexander-suhorucov-6457579.jpg" class="about-image img-fluid">
+
+                            <div class="about-text-info d-flex">
+                                <div class="d-flex">
+                                    <i class="about-text-icon bi-person"></i>
+                                </div>
+
+
+                                <div class="ms-4">
+                                    <h3>a happy moment</h3>
+
+                                    <p class="mb-0">your amazing festival experience with us</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="artists-section section-padding" id="section_3">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 text-center">
+                        <h2 class="mb-4">Meet Artists</h1>
+                    </div>
+
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <div class="artists-image-wrap">
+                                <img src="images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
+                                    class="artists-image img-fluid">
+                            </div>
+
+                            <div class="artists-hover">
+                                <p>
+                                    <strong>Name:</strong>
+                                    Madona
+                                </p>
+
+                                <p>
+                                    <strong>Birthdate:</strong>
+                                    August 16, 1958
+                                </p>
+
+                                <p>
+                                    <strong>Music:</strong>
+                                    Pop, R&amp;B
+                                </p>
+
+                                <hr>
+
+                                <p class="mb-0">
+                                    <strong>Youtube Channel:</strong>
+                                    <a href="#">Madona Official</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <div class="artists-image-wrap">
+                                <img src="images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
+                                    class="artists-image img-fluid">
+                            </div>
+
+                            <div class="artists-hover">
+                                <p>
+                                    <strong>Name:</strong>
+                                    Rihana
+                                </p>
+
+                                <p>
+                                    <strong>Birthdate:</strong>
+                                    Feb 20, 1988
+                                </p>
+
+                                <p>
+                                    <strong>Music:</strong>
+                                    Country
+                                </p>
+
+                                <hr>
+
+                                <p class="mb-0">
+                                    <strong>Youtube Channel:</strong>
+                                    <a href="#">Rihana Official</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="artists-thumb">
+                            <img src="images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
+                                class="artists-image img-fluid">
+
+                            <div class="artists-hover">
+                                <p>
+                                    <strong>Name:</strong>
+                                    Bruno Bros
+                                </p>
+
+                                <p>
+                                    <strong>Birthdate:</strong>
+                                    October 8, 1985
+                                </p>
+
+                                <p>
+                                    <strong>Music:</strong>
+                                    Pop
+                                </p>
+
+                                <hr>
+
+                                <p class="mb-0">
+                                    <strong>Youtube Channel:</strong>
+                                    <a href="#">Bruno Official</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="schedule-section section-padding" id="section_4">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 text-center">
+                        <h2 class="text-white mb-4">Event Schedule</h1>
+
+                            <div class="table-responsive">
+                                <table class="schedule-table table table-dark">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Date</th>
+
+                                            <th scope="col">Wednesday</th>
+
+                                            <th scope="col">Thursday</th>
+
+                                            <th scope="col">Friday</th>
+
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Day 1</th>
+
+                                            <td class="table-background-image-wrap pop-background-image">
+                                                <h3>Pop Night</h3>
+
+                                                <p class="mb-2">5:00 - 7:00 PM</p>
+
+                                                <p>By Adele</p>
+
+                                                <div class="section-overlay"></div>
+                                            </td>
+
+                                            <td style="background-color: #F3DCD4"></td>
+
+                                            <td class="table-background-image-wrap rock-background-image">
+                                                <h3>Rock & Roll</h3>
+
+                                                <p class="mb-2">7:00 - 11:00 PM</p>
+
+                                                <p>By Rihana</p>
+
+                                                <div class="section-overlay"></div>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row">Day 2</th>
+
+                                            <td style="background-color: #ECC9C7"></td>
+
+                                            <td>
+                                                <h3>DJ Night</h3>
+
+                                                <p class="mb-2">6:30 - 9:30 PM</p>
+
+                                                <p>By Rihana</p>
+                                            </td>
+
+                                            <td style="background-color: #D9E3DA"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <th scope="row">Day 3</th>
+
+                                            <td class="table-background-image-wrap country-background-image">
+                                                <h3>Country Music</h3>
+
+                                                <p class="mb-2">4:30 - 7:30 PM</p>
+
+                                                <p>By Rihana</p>
+
+                                                <div class="section-overlay"></div>
+                                            </td>
+
+                                            <td style="background-color: #D1CFC0"></td>
+
+                                            <td>
+                                                <h3>Free Styles</h3>
+
+                                                <p class="mb-2">6:00 - 10:00 PM</p>
+
+                                                <p>By Members</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="pricing-section section-padding section-bg" id="section_5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h2 class="text-center mb-4">Plans, you' love</h2>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="pricing-thumb">
+                            <div class="d-flex">
+                                <div>
+                                    <h3><small>Early Bird</small> $120</h3>
+
+                                    <p>Including good things:</p>
+                                </div>
+
+                                <p class="pricing-tag ms-auto">Save up to <span>50%</span></h2>
+                            </div>
+
+                            <ul class="pricing-list mt-3">
+                                <li class="pricing-list-item">platform for potential customers</li>
+
+                                <li class="pricing-list-item">digital experience</li>
+
+                                <li class="pricing-list-item">high-quality sound</li>
+
+                                <li class="pricing-list-item">standard content</li>
+                            </ul>
+
+                            <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+                                <span>Buy Ticket</span>
+                                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+                                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="16" cy="16" r="15.5"></circle>
+                                        <line x1="10" y1="18" x2="16" y2="12"></line>
+                                        <line x1="16" y1="12" x2="22" y2="18"></line>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12 mt-4 mt-lg-0">
+                        <div class="pricing-thumb">
+                            <div class="d-flex">
+                                <div>
+                                    <h3><small>Standard</small> $240</h3>
+
+                                    <p>What makes a premium festava?</p>
+                                </div>
+                            </div>
+
+                            <ul class="pricing-list mt-3">
+                                <li class="pricing-list-item">platform for potential customers</li>
+
+                                <li class="pricing-list-item">digital experience</li>
+
+                                <li class="pricing-list-item">high-quality sound</li>
+
+                                <li class="pricing-list-item">premium content</li>
+
+                                <li class="pricing-list-item">live chat support</li>
+                            </ul>
+
+                            <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+                                <span>Buy Ticket</span>
+                                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+                                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="16" cy="16" r="15.5"></circle>
+                                        <line x1="10" y1="18" x2="16" y2="12"></line>
+                                        <line x1="16" y1="12" x2="22" y2="18"></line>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact-section section-padding" id="section_6">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h2 class="text-center mb-4">Interested? Let's talk</h2>
+
+                        <nav class="d-flex justify-content-center">
+                            <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab"
+                                role="tablist">
+                                <button class="nav-link active" id="nav-ContactForm-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-ContactForm" type="button" role="tab"
+                                    aria-controls="nav-ContactForm" aria-selected="false">
+                                    <h5>Contact Form</h5>
+                                </button>
+
+                                <button class="nav-link" id="nav-ContactMap-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-ContactMap" type="button" role="tab"
+                                    aria-controls="nav-ContactMap" aria-selected="false">
+                                    <h5>Google Maps</h5>
+                                </button>
+                            </div>
+                        </nav>
+
+                        <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel"
+                                aria-labelledby="nav-ContactForm-tab">
+                                <form class="custom-form contact-form mb-5 mb-lg-0" action="#" method="post"
+                                    role="form">
+                                    <div class="contact-form-body">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <input type="text" name="contact-name" id="contact-name"
+                                                    class="form-control" placeholder="Full name" required>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <input type="email" name="contact-email" id="contact-email"
+                                                    pattern="[^ @]*@[^ @]*" class="form-control"
+                                                    placeholder="Email address" required>
+                                            </div>
+                                        </div>
+
+                                        <input type="text" name="contact-company" id="contact-company"
+                                            class="form-control" placeholder="Company" required>
+
+                                        <textarea name="contact-message" rows="3" class="form-control"
+                                            id="contact-message" placeholder="Message"></textarea>
+
+                                        <div class="col-lg-4 col-md-10 col-8 mx-auto">
+                                            <button type="submit" class="form-control">Send message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-ContactMap" role="tabpanel"
+                                aria-labelledby="nav-ContactMap-tab">
+                                <iframe class="google-map"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29974.469402870927!2d120.94861466021855!3d14.106066818082482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd777b1ab54c8f%3A0x6ecc514451ce2be8!2sTagaytay%2C%20Cavite%2C%20Philippines!5e1!3m2!1sen!2smy!4v1670344209509!5m2!1sen!2smy"
+                                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <!-- You can easily copy the embed code from Google Maps -> Share -> Embed a map // -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="py-5 position-relative" id="footer">
-      <img
-        id="footer-img"
-        class="position-absolute w-100 h-100 img-fluid"
-        src="resource/map.png"
-        alt="footer image"
-      />
-      <div class="container w-75" style="width: 100% !important;" id="footercontent">
-        <div class="row text-left">
-          <div class="col-md text-center text-md-left mb-3 mb-md-auto">
-            <img
-              src="resource/logo.png"
-              class="img-fluid blacklist ml-5 ml-md-auto"
-            />
-          </div>
-          <div class="col-md text-center text-md-left mb-4 mb-md-auto">
-            <h5 class="display-5 font-weight-bold mb-4">About</h5>
-            <p>
-             We at Delhi Digital ensure that we understand your brand essence and create
-             a customized digital experience so that your brand by the people that matter the most. 
-             We try to create an effective social media strategy for the brands and running effective 
-              social media campaigns that will boost your online presence.
-            </p>
-          </div>
-          <div class="col-md text-center  mb-4 mb-md-auto">
-            <h5 class="display-5 font-weight-bold mb-4">Services</h5>
-            <ul class="list-unstyled">
-              <li><a href="#">Digital Marketing</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">SEO</a></li>
-              <li><a href="#">Designs</a></li>
-              <li><a href="#">Paid ads</a></li>
-              <li><a href="#">Branding</a></li>
-              <li><a href="#">Marketing</a></li>
-            </ul>
-          </div>
-          <div class="col-md text-center">
-            <h5 class="display-5 font-weight-bold mb-3 mb-md-5">Reach Out</h5>
-            <ul class="list-unstyled">
-              <li class="d-inline d-md-block mr-3 mr-md-auto">+91 9205110208</li>
-              <li class="d-inline d-md-block mb-4">Hello@delhidigital.co</li>
-              <li>
-                <div
-                  id="footer-socials"
-                  class="container w-75 d-flex justify-content-around align-items-center mt-3 mt-md-0"
-                >
-                  <a href="#"
-                    ><img
-                      width="15"
-                      height="25"
-                      src="./resource/facebook-vector.png"
-                  /></a>
-                  <a href="#"
-                    ><img
-                      width="25"
-                      height="25"
-                      src="./resource/instagram-vector.png"
-                  /></a>
-                  <a href="#"
-                    ><img
-                      width="25"
-                      height="25"
-                      src="./resource/linkedin-vector.png"
-                  /></a>
-                  <a href="#"
-                    ><img width="20" height="20" src="./resource/call.png"
-                  /></a>
+
+    <footer class="site-footer">
+        <div class="site-footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12">
+                        <h2 class="text-white mb-lg-0">Festava Live</h2>
+                    </div>
+
+                    <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
+                        <ul class="social-icon d-flex justify-content-lg-end">
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-twitter"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-apple"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-instagram"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-youtube"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-pinterest"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </li>
-            </ul>
-          </div>
+            </div>
         </div>
-      </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12 mb-4 pb-2">
+                    <h5 class="site-footer-title mb-3">Links</h5>
+
+                    <ul class="site-footer-links">
+                        <li class="site-footer-link-item">
+                            <a href="#" class="site-footer-link">Home</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="#" class="site-footer-link">About</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="#" class="site-footer-link">Artists</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="#" class="site-footer-link">Schedule</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="#" class="site-footer-link">Pricing</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="#" class="site-footer-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                    <h5 class="site-footer-title mb-3">Have a question?</h5>
+
+                    <p class="text-white d-flex mb-1">
+                        <a href="tel: 090-080-0760" class="site-footer-link">
+                            090-080-0760
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex">
+                        <a href="mailto:hello@company.com" class="site-footer-link">
+                            hello@company.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
+                    <h5 class="site-footer-title mb-3">Location</h5>
+
+                    <p class="text-white d-flex mt-3 mb-2">
+                        Silang Junction South, Tagaytay, Cavite, Philippines</p>
+
+                    <a class="link-fx-1 color-contrast-higher mt-3" href="#">
+                        <span>Our Maps</span>
+                        <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="16" cy="16" r="15.5"></circle>
+                                <line x1="10" y1="18" x2="16" y2="12"></line>
+                                <line x1="16" y1="12" x2="22" y2="18"></line>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-footer-bottom">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-12 mt-5">
+                        <p class="copyright-text">Copyright © 2036 Festava Live Company</p>
+                        <p class="copyright-text">Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p>
+                    </div>
+
+                    <div class="col-lg-8 col-12 mt-lg-5">
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Terms &amp; Conditions</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Privacy Policy</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Your Feedback</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
+    <!--
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-      async
-      defer
-    ></script>
-    <script
-      src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
-      integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
-      integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
-      crossorigin="anonymous"
-    ></script>
-    <script src="static/js/scrollreveal.min.js"></script>
-    <script src="static/js/jquery.scrollify.js"></script>
-    <script src="./static/js/main.js" async defer></script>
-    <script src="js/jquery-1.7.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+T e m p l a t e M o
+
+-->
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
 </html>
